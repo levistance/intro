@@ -15,7 +15,9 @@ permalink: /
         {% endif %}
         <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/6fafe6f3a0.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
     </head>
     <body>
         <div class="content">
@@ -31,16 +33,16 @@ permalink: /
             <h3>{{ site.description }}</h3>
 
                 <ul>
+                    {% if site.youtube_username %}
+                    <li><a class="fa fa-2x fa-brands fa-youtube" href="https://{{ site.youtube_username }}.tumblr.com/"><span class="description">Youtube</span></a></li>
+                    {% endif %}
+
                     {% if site.github_username %}
                     <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
                     {% endif %}
 
                     {% if site.codepen_username %}
                     <li><a class="fa fa-2x fa-codepen" href="https://codepen.io/{{ site.codepen_username }}"><span class="description">CodePen</span></a></li>
-                    {% endif %}
-
-                    {% if site.facebook_username %}
-                    <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="description">Facebook</span></a></li>
                     {% endif %}
 
                     {% if site.vk_username %}
@@ -64,7 +66,7 @@ permalink: /
                     {% endif %}
 
                     {% if site.instagram_username %}
-                    <li><a class="fa fa-2x fa-instagram" href="https://instagram.com/{{ site.instagram_username }}"><span class="description">Instagram</span></a></li>
+                    <li><a class="fa fa-2x fa-brands fa-instagram" href="https://instagram.com/{{ site.instagram_username }}"><span class="description">Instagram</span></a></li>
                     {% endif %}
 
                     {% if site.flickr_usernmae %}
@@ -97,14 +99,14 @@ permalink: /
 
                     {% if site.tumblr_username %}
                     <li><a class="fa fa-2x fa-tumblr" href="https://{{ site.tumblr_username }}.tumblr.com/"><span class="description">Tumblr</span></a></li>
-                    {% endif %}
-
-                    {% if site.youtube_username %}
-                    <li><a class="fa fa-2x fa-youtube " href="https://{{ site.youtube_username }}.tumblr.com/"><span class="description">Youtube</span></a></li>
-                    {% endif %}
+                    {% endif %} 
 
                     {% if site.weibo_username %}
                     <li><a class="fa fa-2x fa-weibo" href="https://weibo.com/{{ site.weibo_username }}"><span class="description">微博</span></a></li>
+                    {% endif %}
+
+                    {% if site.facebook_username %}
+                    <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="description">Facebook</span></a></li>
                     {% endif %}
 
                     {% if site.blog_url %}
