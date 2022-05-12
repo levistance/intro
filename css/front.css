@@ -9,6 +9,11 @@ body {
     margin: 0;
 }
 
+#avatar {
+    height: 100px;
+    margin-bottom: 24px;
+}
+
 h1 {
     color: white;
     font-weight: bold;
@@ -77,25 +82,12 @@ a {
     #mobile_back {
         display: none;
     }
-
-    #avatar_mobile {
-        display: none;
-    }
-
-    #avatar_desktop {
-        height: 100px;
-        margin-bottom: 24px;
-    }
 }
 
 /* mobile */
 @media (max-width: 450px) {
-    #avatar_mobile {
-        height: 100px;
-        margin-bottom: 24px;
-    }
-    #avatar_desktop {
-        display: none;
+    #avatar {
+        margin-bottom: -10px;
     }
 #fullscreen {
     display: none;
