@@ -18,6 +18,9 @@ body {
     top: 0;
     left: 0;
 }
+#mobile_back {
+    display: none;
+}
 #avatar {
     height: 100px;
     border-radius: 100%;
@@ -79,6 +82,20 @@ a {
 
 
 @media (max-width: 450px) {
+.content > #fullscreen {
+    display: none;
+}
+.content > #mobile_back {
+    display: block;
+    z-index: -999;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 ul {
     text-align: center;
     list-style: none;
@@ -118,8 +135,6 @@ a:hover {
 }
 .content {
     padding-top: 60px;
-
-    
 }
 
 }
