@@ -42,7 +42,7 @@ ul {
 }
 li {
     border-radius: 100%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     color: white;
     margin: 8px;
     display: inline-block;
@@ -109,13 +109,13 @@ ul {
 }
 li {
     border-radius: 100%;
-    border: 2px solid white;
+    /* border: 1px solid white; */
     color: white;
     margin: 8px;
     display: inline-block;
     list-style: none;
-    width: 65px;
-    height: 65px;
+    width: 63px;
+    height: 63px;
 }
 li:hover {
     background-color: none;
