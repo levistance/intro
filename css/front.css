@@ -24,13 +24,13 @@ h1 {
     margin: -10px 0;
     margin-bottom: 30px;
 }
-h3 {
+ h3 {
     color: white;
     padding-bottom: 20px;
     font-weight: thin;
+    margin-top: 0px;
 }
 .content {
-    padding-top: 100px;
     padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -145,4 +145,33 @@ a:hover {
     padding-top: 30px;
 }
 
+}
+
+.album_intro {
+    background-color: black;
+    padding-bottom: 60px;
+}
+.album_intro h3 {
+    text-align: center;
+    padding-top: 110px;
+
+}
+.album_intro h1 {
+    text-align: center;
+}
+.album_intro p {
+    color: white;
+    text-align: center;
+}
+
+.album_intro button {
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.album_intro .learn_more {
+    text-align: center;
 }

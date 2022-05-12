@@ -14,8 +14,8 @@ permalink: /
         <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
         {% endif %}
         <link rel="stylesheet" href="{{ "css/all.min.css" | prepend: site.baseurl }}">
-        <script src="{{ "js/fa.js" | prepend: site.baseurl }}" crossorigin="anonymous"></script>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
     </head>
     <body>
@@ -43,7 +43,32 @@ permalink: /
                 </ul>
         </div>
         <div class="album_intro">
-
+            <div class="row">
+                <div class="col-sm">
+                    <h3>1st album</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <h1>Nard</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <p>“Like a woman who broke a jar of perfume,<br/>
+                    we break ourselves everyday.”<br/>
+                    John 12:3</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm learn_more">
+                    <button class="btn">Learn More</button>
+                </div>
+                <div class="col-sm"></div>
+            </div>
         </div>
     </body>
+    <script src="{{ "js/fa.js" | prepend: site.baseurl }}" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
