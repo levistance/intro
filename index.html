@@ -21,17 +21,14 @@ permalink: /
     <body>
         <div class="content">
             {% if site.front_img %}
-            <img src="{{ site.front_img_path }}" id="fullscreen">
-            <img src="{{ site.front_mobile_img_path }}" id="mobile_back">
+            <img class="background" src="{{ site.front_img_path }}" id="fullscreen">
+            <img class="background" src="{{ site.front_mobile_img_path }}" id="mobile_back">
             {% endif %}
 
             {% if site.avatar %}
                 <img src="{{ site.logo_img_mobile }}" id="avatar_mobile">
                 <img src="{{ site.logo_img_desktop }}" id="avatar_desktop">
             {% endif %}
-
-            <!-- <h1>{{ site.name }}</h1> -->
-            <!-- <h3>{{ site.description }}</h3> -->
                 <ul>
                     {% if site.youtube_username %}
                     <li><a class="fa fa-2x fa-brands fa-youtube" href="https://youtube.com/channel/{{ site.youtube_username }}"><span class="description">Youtube</span></a></li>
@@ -42,7 +39,7 @@ permalink: /
                     {% endif %}
 
                     {% if site.facebook_username %}
-                    <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="description">Facebook</span></a></li>
+                    <li><a class="fa fa-2x fa-brands fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="description">Facebook</span></a></li>
                     {% endif %}
                 </ul>
         </div>

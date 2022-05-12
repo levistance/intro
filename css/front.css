@@ -9,12 +9,6 @@ body {
     margin: 0;
 }
 
-#avatar {
-    height: 100px;
-    border-radius: 100%;
-    /* border: 5px solid white; */
-    margin-bottom: 24px;
-}
 h1 {
     color: white;
     font-weight: bold;
@@ -70,7 +64,7 @@ a {
 }
 
 @media (min-width: 451px) {
-    .content > #fullscreen {
+    #fullscreen {
         z-index: -999;
         min-height: 100%;
         min-width: 1024px;
@@ -80,7 +74,7 @@ a {
         top: 0;
         left: 0;
     }
-    .content > #mobile_back {
+    #mobile_back {
         display: none;
     }
 
@@ -103,10 +97,10 @@ a {
     #avatar_desktop {
         display: none;
     }
-.content > #fullscreen {
+#fullscreen {
     display: none;
 }
-.content > #mobile_back {
+#mobile_back {
     z-index: -999;
     min-height: 100%;
     min-width: 100%;
