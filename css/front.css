@@ -35,6 +35,7 @@ h3 {
     padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
+    height: 100%;
 }
 ul {
     list-style: none;
@@ -82,9 +83,26 @@ a {
     .content > #mobile_back {
         display: none;
     }
+
+    #avatar_mobile {
+        display: none;
+    }
+
+    #avatar_desktop {
+        height: 100px;
+        margin-bottom: 24px;
+    }
 }
 
+/* mobile */
 @media (max-width: 450px) {
+    #avatar_mobile {
+        height: 100px;
+        margin-bottom: 24px;
+    }
+    #avatar_desktop {
+        display: none;
+    }
 .content > #fullscreen {
     display: none;
 }

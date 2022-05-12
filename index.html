@@ -26,10 +26,11 @@ permalink: /
             {% endif %}
 
             {% if site.avatar %}
-                <img src="{{ site.avatar_img_path }}" id="avatar">
+                <img src="{{ site.logo_img_mobile }}" id="avatar_mobile">
+                <img src="{{ site.logo_img_desktop }}" id="avatar_desktop">
             {% endif %}
 
-            <h1>{{ site.name }}</h1>
+            <!-- <h1>{{ site.name }}</h1> -->
             <!-- <h3>{{ site.description }}</h3> -->
                 <ul>
                     {% if site.youtube_username %}
