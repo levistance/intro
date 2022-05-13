@@ -1,0 +1,68 @@
+---
+---
+
+body {
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    background-color: black;
+    min-height: 100%;
+    .row {
+        margin: 0;
+    }
+}
+.logo {
+    margin-top: 30px;
+    width: 20%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    img {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
+.content {
+overflow: scroll;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Playfair Display', serif;
+    min-height: 100%;
+    .subtitle {
+        padding-top: 60px;
+        color: white;
+        text-align: center;
+    }
+    .title p {
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-size: 3.95rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .nard-img {
+        img {
+            width: 100%;
+            display: block;
+        }
+        margin-bottom: 30px;
+    }
+    .bible {
+        font-family: 'Playfair Display', serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: white;
+        text-align: center;
+        p {
+            display: block;
+        }
+    }
+    .description {
+        color: white;
+        font-family: Roboto,Arial,sans-serif;
+    }
+}

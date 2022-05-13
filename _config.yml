@@ -66,3 +66,10 @@ track09: 09. Let me stay at Your feet
 track10: 10. Home
 track11: 11. Holy perfect storm
 track12: 12. Jesus is coming
+
+sass:
+  implementation: sassc
+  style: compact
+  sass_dir: _sass
+  line_comments: false
+  sourcemap: always

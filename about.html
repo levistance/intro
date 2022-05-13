@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Learn More 
+permalink: /learn
 ---
 
 <!DOCTYPE html>
@@ -22,137 +22,64 @@ permalink: /about/
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ "css/content.css" | prepend: site.baseurl }}">
     </head>
     <body>
+        <div class="logo">
+            <img src="imgs/symbol.png" id="avatar">
+        </div>
         <div class="content">
-            {% if site.front_img %}
-            <img class="background" src="{{ site.front_img_path }}" id="fullscreen">
-            <img class="background" src="{{ site.front_mobile_img_path }}" id="mobile_back">
-            {% endif %}
-
-            {% if site.avatar %}
-                <img src="{{ site.avatar_img_path }}" id="avatar">
-            {% endif %}
-                <h3 class="follow">Follow Levistance</h3>
-                <ul>
-                    {% if site.youtube_username %}
-                    <li><a class="fa fa-2x fa-brands fa-youtube" href="https://youtube.com/channel/{{ site.youtube_username }}"><span class="description">Youtube</span></a></li>
-                    {% endif %}
-
-                    {% if site.instagram_username %}
-                    <li><a class="fa fa-2x fa-brands fa-instagram" href="https://instagram.com/{{ site.instagram_username }}"><span class="description">Instagram</span></a></li>
-                    {% endif %}
-
-                    {% if site.facebook_username %}
-                    <li><a class="fa fa-2x fa-brands fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="description">Facebook</span></a></li>
-                    {% endif %}
-                </ul>
-        </div>
-        <div class="album_intro">
             <div class="row">
-                <div class="col">
-                    <h3>1st album</h3>
+                <div class="col subtitle">
+                    <p>1st album</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm">
-                    <h1>Nard</h1>
+                <div class="col-sm title">
+                    <p>Nard</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm">
-                    <p>“Like a woman who broke a jar of perfume,<br/>
-                    we break ourselves everyday.”<br/>
-                    John 12:3</p>
+                <div class="col-12 nard-img">
+                    <img src="imgs/nard.png" alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm"></div>
-                <div class="col-sm learn_more">
-                    <button class="btn">Learn More</button>
-                </div>
-                <div class="col-sm"></div>
-            </div>
-        </div>
-        <div class="track-list">
-            <div class="row">
-                <h3>1st Nard Alum</h3>
-            </div>
-            <div class="row title">
-                <h1>Tracklist</h1>
-            </div>
-            <div class="row">
-                <div class="col col-6 col-sm">
-                    <img src="imgs/01_Levistance.jpg" alt="{{ site.track01 }}">
-                    <span>{{ site.track01 }}</span>
-                </div>
-                <div class="col col-6 col-sm">
-                    <img src="imgs/02_My_God.jpg" alt="{{ site.track02 }}">
-                    <span>{{ site.track02 }}</span>
-                </div>
-                <div class="col col-6 col-sm">
-                    <img src="imgs/03_Show_me_Your_glory.jpg" alt="{{ site.track03 }}">
-                    <span>{{ site.track03 }}</span>
-                </div>
-                <div class="col col-6 col-sm">
-                    <img src="imgs/04_Running_to_You.jpg" alt="{{ site.track04 }}">
-                    <span>{{ site.track04 }}</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col col-6 col-sm">
-                    <img src="imgs/05_The_Prodigal_Son.jpg" alt="{{ site.track05 }}">
-                    <span>{{ site.track05 }}</span>
-                </div>
-                <div class="col col-6 col-sm">
-                    <img src="imgs/06_Sweeter_than_wine.jpg" alt="{{ site.track06 }}">
-                    <span>{{ site.track06 }}</span>
-                </div>
-                <div class="col col-6 col-sm">
-                    <img src="imgs/07_One_thing_I_want.jpg" alt="{{ site.track07 }}">
-                    <span>{{ site.track07 }}</span>
-                </div>
-                <div class="col col-6 col-sm">
-                    <img src="imgs/08_Down_to_the_lowest.jpg" alt="{{ site.track08 }}">
-                    <span>{{ site.track08 }}</span>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col col-6 col-sm">
-                    <img src="imgs/09_Let_me_stay_at_Your_feet.jpg" alt="{{ site.track09 }}">
-                    <span>{{ site.track09 }}</span>
-                </div>
-                <div class="col col-6 col-sm">
-                    <img src="imgs/10_Home.jpg" alt="{{ site.track10 }}">
-                    <span>{{ site.track10 }}</span>
-                </div>
-                <div class="col col-6 col-sm">
-                    <img src="imgs/11_Holy perfect storm.jpg" alt="{{ site.track11 }}">
-                    <span>{{ site.track11 }}</span>
-                </div>
-                <div class="col col-6 col-sm">
-                    <img src="imgs/12_Jesus is coming.jpg" alt="{{ site.track12 }}">
-                    <span>{{ site.track12 }}</span>
-                </div>
-            </div>
-        </div>
-        <div class="levistance-intro">
-            <div class="row">
-                <div class="col"><img src="imgs/symbol_pc.png" alt="levistance-intro"></div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p>Levistance, a combination of two words<br/>
-                        ‘Levite’ and ‘Resistance’,
-                        <br/>is worship team that resists the culture of Babylon
-                        <br/> and serves the next generation.
+                <div class="bible col-12">
+                    <p>
+                        Then Mary took about a pint of pure nard, an expensive perfume;
+                    </p>
+                    <p>
+                        she poured it on Jesus’ feet and wiped his feet with her hair. And the house was ﬁlled with the fragrance of the perfume. (John 12:3)
                     </p>
                 </div>
             </div>
             <div class="row">
-                <div class="col team">
-                    <img src="imgs/team.png" alt="team intro">
+                <div class="col-12 description">
+                    Mary of Bethany brought a jar of pure nard before Jesus. This had been, was and will have been her most prized possession.
+                    She broke the jar and began to pour it on Jesus’ feet. Many showed resentment towards her extravagant action but their criticism did not stop her. This was very easy for her to do as she knew that Jesus Christ was an incomparable, the most beautiful, and the greatest bridegroom. Levistance’s ﬁrst studio album [NARD] is their pure nard. We infused this album with our confessions and devotions to live as worshippers for the Kingdom of God, keeping the worldy value and success behind us.<br/>
+                    The world pushes and demands us to devote our time and zeal to succeed.<br/>
+                    The album [NARD] is a resistance against such demands of the world. It is Levistance’s answer to the world’s resentment towards Mary’s extravagant devotion.<br/>
+                    This collection of 12 original songs is our declaration that there is no shame and waste in the offering of our lives, broken and poured out on the feet of Jesus.<br/>
+                    Divine extravagance and extreme worship. This is the spirit of Levistance. The fragrance of the album [NARD] poured out on Jesus’ feet will awaken the next genera- tion all over the nations. We pray that all who listen to this album will rise as armies of holy brides of Christ.<br/>
+                    Resist the world and their culture with prayer and worship! This is Levistance!<br/>
+                    I am LEVISTANCE, You are LEVISTANCE, We are LEVISTANCE!<br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 bible">
+                    <p>
+                        마리아는 지극히 비싼 향유 곧 순전한 나드 한 근을 가져다가 예수의 발에 붓 고 자기 머리털로 그의 발을 닦으니 향유 냄새가 집에 가득하더라 (요 12:3)
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 description">
+                    베다니 마리아는 옥합에 담긴 순전한 나드 한 근을 예수님 앞으로 가져왔다. 이것은 그녀의 과거와 현재, 미래이자 그녀에게 있어 가장 소중한 전부였다. 그녀는 그 옥합을 깬 뒤 담겨있던 향유를 예수님의 발 위에 붓기 시작했다. 이 값비싼 향유를 낭비하느냐며 만류하는 많은 사람들의. 분개함도 그녀를 멈 출 수 없었다. 마리아에게 있어 이것은매우쉬운일이었다 왜냐하면그녀는그분 이이세상그무엇과도바꿀수없는,가장아름답고위대한신랑, 그리스도이심을 알 았기 때문이다.<br/>
+                    레비스탕스의 첫 번째 정규 앨범 [NARD] 는 멤버들의 순전한 나드이다. 우리 의 성공과 미래를 과감히 뒤로하고 하나님 나라의 부르심을 향해 예배자의 삶 을 살기로 한 멤버들의 결단과 고백이 이 앨범에 스며있다.<br/>
+                    세상은, 왜 너의 재능과 젊음을 낭비하느냐며 분개한다. 주어진 열정과 시간을 너의 성공을. 위해 쏟으라고 말한다. 앨범 [NARD]는 이러한 세상의 요구에 대 한 저항이다 마리아의 극단적 헌신을 향해 ‘ 도대체 왜?’라며 분개하는 세상의 질문에 대한 레비스탕스의 대답이다. [NARD]에 담긴 12개의 자작곡들은, 우 리의 삶을 기꺼이 깨트려 가장 귀한 예수님의 발 위에 부어드림이 결코 아깝지 않다는 레비스탕스들의 고백이다.<br/>
+                    세상이 이해할 수 없는 극단적 경배, 거룩한 허비. 이것이 레비스탕스의 정신 이다. 예수님의 발 위에 부어진 [NARD]의 향기가 온 열방의 다음 세대들을 깨 울 것이다. 이 앨범을 듣는 자들 모두, 극단적 예배와 거룩한 허비를 마다하지 않는 거룩한 신부의 군대로 일어나길 기도한다 기도와 예배로 세상과 어둠의 문화에 저항하라. ! 이것이 바로 레비스탕스이다!<br/>
+                    I am LEVISTANCE, You are LEVISTANCE, We are LEVISTANCE!
                 </div>
             </div>
         </div>
@@ -160,4 +87,3 @@ permalink: /about/
     <script src="{{ "js/fa.js" | prepend: site.baseurl }}" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
-
