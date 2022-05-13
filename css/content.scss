@@ -28,6 +28,8 @@ body {
     }
 }
 .content {
+
+    color: white;
     .youtube {
         iframe {
             width: 100%;
@@ -45,8 +47,24 @@ body {
         font-family: Roboto,Arial,sans-serif;
         font-size: 0.8rem;
     }
-    padding-left: 10px;
-    padding-right: 10px;
+    .lyrics-tag {
+        margin-top: 30px;
+        font-size: 2rem;
+        font-family: Roboto,Arial,sans-serif;
+    }
+    .lyrics {
+        font-family: Roboto,Arial,sans-serif;
+        margin-bottom: 10px;
+    }
+    .score {
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
     font-family: 'Playfair Display', serif;
     .subtitle {
         color: white;
@@ -57,7 +75,6 @@ body {
         font-family: 'Playfair Display', serif;
         font-size: 3.95rem;
         text-align: center;
-        margin-bottom: 30px;
     }
     .nard-img {
         img {
