@@ -15,12 +15,12 @@ body {
 }
 
 .content > h3.follow {
-    margin-top: 30px;
+    margin-top: 35px;
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     font-size: 0.9rem;
+    font-weight: lighter;
 }
-
 
 h1 {
     color: white;
@@ -47,16 +47,9 @@ h1 {
 ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
-li {
-    border-radius: 100%;
-    color: white;
-    margin: 8px;
-    display: inline-block;
-    list-style: none;
-    width: 65px;
-    height: 65px;
-}
+
 li:hover {
     color: white;
     text-decoration: none;
@@ -68,7 +61,7 @@ li:hover {
 }
 a {
     color: white;
-    padding: 15px;
+    /* padding: 15px; */
     text-decoration: none;
 }
 .description {
@@ -76,6 +69,11 @@ a {
 }
 
 @media (min-width: 451px) {
+    .sns-logo img {
+        width: 65px;
+        height: 65px;
+        display: block;
+    }
     li {
         border: 2px solid white;
     }
@@ -96,6 +94,16 @@ a {
 
 /* mobile */
 @media (max-width: 450px) {
+    a.sns-logo {
+        display: block;
+        margin-left: 12.5px;
+        margin-right: 12.5px;
+    }
+    .sns-logo img {
+        width: 42px;
+        height: 42px;
+        display: block;
+    }
     #avatar {
         margin-bottom: -10px;
     }
@@ -118,14 +126,12 @@ ul {
     padding: 0;
 }
 li {
-    border-radius: 100%;
-    border: 1px solid white;
-    color: white;
-    margin: 8px;
+    /* border-radius: 100%; */
+    /* border: 1px solid white; */
+    /* color: white; */
+    /* margin: 8px; */
     display: inline-block;
     list-style: none;
-    width: 64px;
-    height: 64px;
 }
 li:hover {
     background-color: none;
@@ -134,9 +140,9 @@ li:hover {
 a {
     /* text-align: justify; */
     /* border: 2px solid white; */
-    border-radius: 5px;
+    /* border-radius: 5px; */
     color: white;
-    padding: 15px;
+    /* padding: 15px; */
 }
 a:hover {
     -webkit-transition: 500ms;

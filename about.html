@@ -1,6 +1,9 @@
 ---
-permalink: /
+layout: page
+title: About
+permalink: /about/
 ---
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -34,30 +37,15 @@ permalink: /
                 <h3 class="follow">Follow Levistance</h3>
                 <ul>
                     {% if site.youtube_username %}
-                    <li>
-                        <a class="sns-logo" href="https://youtube.com/channel/{{ site.youtube_username }}">
-                            <img src="imgs/youtube.png" alt="youtube link">
-                            <span class="description">Youtube</span>
-                        </a>
-                    </li>
+                    <li><a class="fa fa-2x fa-brands fa-youtube" href="https://youtube.com/channel/{{ site.youtube_username }}"><span class="description">Youtube</span></a></li>
                     {% endif %}
 
                     {% if site.instagram_username %}
-                    <li>
-                        <a class="sns-logo" href="https://instagram.com/{{ site.instagram_username }}">
-                            <img src="imgs/insta.png" alt="instagram link">
-                            <span class="description">Instagram</span>
-                        </a>
-                    </li>
+                    <li><a class="fa fa-2x fa-brands fa-instagram" href="https://instagram.com/{{ site.instagram_username }}"><span class="description">Instagram</span></a></li>
                     {% endif %}
 
                     {% if site.facebook_username %}
-                    <li>
-                        <a class="sns-logo" href="https://facebook.com/{{ site.facebook_username }}">
-                            <img src="imgs/facebook.png" alt="facebook link">
-                            <span class="description">Facebook</span>
-                        </a>
-                    </li>
+                    <li><a class="fa fa-2x fa-brands fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="description">Facebook</span></a></li>
                     {% endif %}
                 </ul>
         </div>
@@ -172,3 +160,4 @@ permalink: /
     <script src="{{ "js/fa.js" | prepend: site.baseurl }}" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
+
