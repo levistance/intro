@@ -175,3 +175,44 @@ a:hover {
 .album_intro .learn_more {
     text-align: center;
 }
+
+.track-list {
+    background-color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 60px;
+}
+
+.track-list h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+}
+.track-list h3 {
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+}
+.track-list p {
+    color: black;
+    text-align: center;
+}
+.track-list .row span {
+    color: black;
+    font-weight: bold;
+    font-size: 0.89rem;
+}
+.track-list .col img {
+    width: 100%;
+    border-radius: 15px;
+}
+.track-list .row .col {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.row {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
