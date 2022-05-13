@@ -9,6 +9,17 @@ body {
     margin: 0;
 }
 
+a.sns-logo {
+    display: block;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+}
+.sns-logo img {
+    width: 42px;
+    height: 42px;
+    display: block;
+}
+
 #avatar {
     height: 100px;
     margin-bottom: 24px;
@@ -70,14 +81,12 @@ a {
 }
 
 @media (min-width: 451px) {
-    .sns-logo img {
-        width: 65px;
-        height: 65px;
-        display: block;
+    a.sns-logo {
+        display: inline-block;
+        margin-left: 0.7em;
+        margin-right: 0.7em;
     }
-    li {
-        border: 2px solid white;
-    }
+    
     #fullscreen {
         z-index: -999;
         min-height: 100%;
