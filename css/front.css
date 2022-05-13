@@ -226,22 +226,25 @@ px
     padding-right: 6px;
     padding-bottom: 60px;
 }
+.track-list .subtitle {
+    margin-top: 70px;
+}
 
-.track-list h1 {
+.track-list .subtitle p {
+    margin-bottom: -6px;
+    margin-top: 10px;
     text-align: center;
-    margin-bottom: 10px;
     color: black;
     font-family: 'Playfair Display', serif;
 }
-.track-list h3 {
+.track-list .title p {
+    font-size: 2.5rem;
     text-align: center;
-    padding-top: 20px;
     color: black;
     font-family: 'Playfair Display', serif;
-}
-.track-list .title {
     margin-bottom: 30px;
 }
+
 .track-list p {
     color: black;
     text-align: center;
@@ -251,7 +254,8 @@ px
     font-weight: bold;
     font-size: 0.89rem;
     font-family: Roboto,Arial,sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    display: block;
 }
 .track-list .col img {
     width: 100%;
