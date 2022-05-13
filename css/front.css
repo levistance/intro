@@ -14,6 +14,14 @@ body {
     margin-bottom: 24px;
 }
 
+.content > h3.follow {
+    margin-top: 30px;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+
 h1 {
     color: white;
     font-weight: bold;
@@ -111,13 +119,13 @@ ul {
 }
 li {
     border-radius: 100%;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     color: white;
     margin: 8px;
     display: inline-block;
     list-style: none;
-    width: 63px;
-    height: 63px;
+    width: 64px;
+    height: 64px;
 }
 li:hover {
     background-color: none;
