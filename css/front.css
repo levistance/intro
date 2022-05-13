@@ -16,6 +16,7 @@ body {
 
 .content > h3.follow {
     margin-top: 35px;
+    margin-bottom: 13px;
     display: block;
     padding-bottom: 0px;
     font-size: 0.9rem;
@@ -96,8 +97,8 @@ a {
 @media (max-width: 450px) {
     a.sns-logo {
         display: block;
-        margin-left: 12.5px;
-        margin-right: 12.5px;
+        margin-left: 0.7em;
+        margin-right: 0.7em;
     }
     .sns-logo img {
         width: 42px;
