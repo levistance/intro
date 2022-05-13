@@ -73,7 +73,6 @@ li:hover {
 }
 a {
     color: white;
-    /* padding: 15px; */
     text-decoration: none;
 }
 .description {
@@ -173,20 +172,26 @@ a:hover {
 
 .album_intro {
     background-color: black;
-    padding-bottom: 60px;
+    padding-bottom: 78px;
     font-family: 'Playfair Display', serif;
 }
-.album_intro h3 {
+.album_intro .subtitle {
+    color: white;
     text-align: center;
-    padding-top: 110px;
-
+    padding-top: 78px;
+    margin-bottom: 5px;
 }
-.album_intro h1 {
-    text-align: center;
+.album_intro .subtitle p {
+    margin-bottom: -20px;
+}
+.album_intro .title p {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.95rem;
 }
 .album_intro p {
     color: white;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .album_intro button {
