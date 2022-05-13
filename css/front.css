@@ -273,7 +273,7 @@ px
 }
 .levistance-intro {
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     background-color: black;
 }
 .levistance-intro img {
@@ -289,6 +289,15 @@ px
     font-family: 'Playfair Display', serif;
     font-size: 0.95rem;
 }
+.levistance-intro .end-symbol img {
+    max-width: 33%;
+}
+.levistance-intro .team img{
+    max-width: 100%;
+}
 .levistance-intro .description {
     margin-top: 20px;
+}
+.levistance-intro .team-intro {
+    margin-bottom: 20px;
 }
