@@ -1,0 +1,101 @@
+---
+layout: page
+title: Home
+permalink: /home
+---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="{{ site.description }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        {% if site.favicon_img %}
+        <link rel="shortcut icon" href="{{ site.favicon_img_path }}" />
+        {% endif %}
+        <link rel="stylesheet" href="{{ "css/all.min.css" | prepend: site.baseurl }}">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ "css/content.css" | prepend: site.baseurl }}">
+    </head>
+    <body>
+        <div class="logo">
+            <img src="imgs/symbol.png" id="avatar">
+        </div>
+        <div class="content">
+            <div class="youtube">
+                <iframe src="https://www.youtube.com/embed/Yl81h55DdD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="music-title music">
+                Home
+            </div>
+            <div class="music-description music">
+                LYRIC : HAEIN PARK / 작사 : 박해인<br/>
+                COMPOSER : HAEIN PARK / 작곡 : 박해인
+            </div>
+            <div class="lyrics-tag">
+                Lyrics
+            </div>
+            <div class="lyrics">
+                VERSE<br/>
+                Home, there is a home<br/>
+                Whenever I am weary, I go back to You<br/>
+                Home, there is a home<br/>
+                Whenever I am burden, I lean on to You<br/><br/>
+
+                PRE-CHORUS<br/>
+                Father, I go back to You<br/>
+                For You’re my source of life<br/>
+                Father, I lean on to You<br/>
+                For You’re my foundation<br/><br/>
+
+                CHORUS<br/>
+                I will live for You have loved me ﬁrst<br/>
+                I will stand for Your grace upholds me<br/><br/>
+
+                BRIDGE<br/>
+                Father I will run into Your arms<br/>
+                For no where else I ﬁnd peace<br/>
+                Father I will love You forever more<br/>
+                For that is why I’m living
+            </div>
+            <div class="lyrics-tag">
+                가사
+            </div>
+            <div class="lyrics">
+                VERSE<br/>
+                집이 있습니다<br/>
+                내가 지칠 때마다 당신께로 돌아갑니다<br/>
+                집이 있습니다<br/>
+                내가 힘이 들 때마다 당신한테 기대봅니다<br/><br/>
+
+                PRE-CHORUS<br/>
+                아버지 내가 당신께 돌아갈 수 있는 이유는<br/>
+                당신이 나의 생명의 근원이시기 때문이고<br/>
+                아버지 내가 당신께 기댈 수 있는 이유는<br/>
+                당신이 나의 반석이기 때문입니다<br/><br/>
+
+                CHORUS<br/>
+                당신이 나를 먼저 사랑하셨기에 내가 살아가며<br/>
+                당신의 은혜가 날 지탱하시기에 내가 바로 섭니다<br/><br/>
+
+                BRIDGE<br/>
+                다른 곳에선 평화를 찾을 수 없어서<br/>
+                아버지 내가 당신의 품으로 달려갑니다<br/>
+                내가 살아가는 이유는<br/>
+                아버지 당신을 영원히 사랑하는 것입니다
+            </div>
+            <div class="score">
+                <img src="imgs/scores/10_Home.png" alt="">
+            </div>
+        </div>
+    </body>
+    <script src="{{ "js/fa.js" | prepend: site.baseurl }}" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
