@@ -69,7 +69,7 @@ track12: 12. Jesus is coming
 
 sass:
   implementation: sassc
-  style: compact
+  style: compressed 
   sass_dir: _sass
   line_comments: false
   sourcemap: always
