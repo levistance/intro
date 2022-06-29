@@ -84,6 +84,9 @@ a {
 
 /* desktop */
 @media (min-width: 451px) {
+    #avatar {
+        margin-top: 1.7%;
+    } 
     ul {
         text-align: center;
         list-style: none;
@@ -136,6 +139,7 @@ a {
         margin-left: 0.7em;
         margin-right: 0.7em;
     }
+
     .sns-logo img {
         width: 42px;
         height: 42px;
