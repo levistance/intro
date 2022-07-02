@@ -84,6 +84,12 @@ a {
 
 /* desktop */
 @media (min-width: 451px) {
+    .track-list {
+        background-color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 60px;
+    }
     #avatar {
         margin-top: 3.3%;
     } 
@@ -160,6 +166,12 @@ a {
         padding-bottom: 0px;
         font-size: 1rem;
         font-weight: lighter;
+    }
+    .track-list {
+        background-color: white;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-bottom: 60px;
     }
     #fullscreen {
         display: none;
@@ -296,10 +308,11 @@ a {
 .track-list .row span {
     color: black;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-family: 'Playfair Display', serif;
-    margin-top: 10px;
-    margin-bottom: 37px;
+    margin-top: 6px;
+    margin-bottom: 33px;
+    
     display: block;
 }
 .track-list .col img {
