@@ -146,7 +146,16 @@ a {
         display: block;
     }
     #avatar {
+        height: 100px;
         margin-bottom: -10px;
+    }
+    .content > h3.follow {
+        margin-top: 37px;
+        margin-bottom: 13px;
+        display: block;
+        padding-bottom: 0px;
+        font-size: 1rem;
+        font-weight: lighter;
     }
     #fullscreen {
         display: none;
