@@ -18,22 +18,22 @@ a.sns-logo {
     margin-right: 0.7em;
 }
 .sns-logo img {
-    width: 42px;
-    height: 42px;
+    width: 57px;
+    height: 57px;
     display: block;
 }
 
 #avatar {
-    height: 100px;
+    height: 130px;
     margin-bottom: 24px;
 }
 
 .content > h3.follow {
-    margin-top: 35px;
-    margin-bottom: 13px;
+    margin-top: 170px;
+    margin-bottom: 17px;
     display: block;
     padding-bottom: 0px;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     font-weight: lighter;
 }
 
@@ -55,7 +55,7 @@ h1 {
 }
 .content {
     padding-bottom: 40px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.37);
     text-align: center;
     height: 100%;
 }
@@ -85,7 +85,7 @@ a {
 /* desktop */
 @media (min-width: 451px) {
     #avatar {
-        margin-top: 1.7%;
+        margin-top: 3.3%;
     } 
     ul {
         text-align: center;
