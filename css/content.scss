@@ -16,7 +16,7 @@ body {
 }
 .logo {
     margin-top: 30px;
-    max-width: 100px;
+    max-width: 130px;
     width: 20%;
     text-align: center;
     margin-left: auto;
@@ -78,6 +78,7 @@ $mobile-width: 450px;
     padding-right: 15px;
     padding-bottom: 30px;
     font-family: 'Playfair Display', serif;
+
     .subtitle {
         color: white;
         text-align: center;
@@ -89,18 +90,20 @@ $mobile-width: 450px;
         color: white;
         font-family: 'Playfair Display', serif;
         font-size: 3.95rem;
-        padding-left: 10vw;
-        padding-right: 10vw;
+        padding-left: 10vw; //
+        padding-right: 10vw; //
         text-align: center;
     }
     .nard-img {
         img {
             width: 100%;
             display: block;
-            margin : auto;
-            margin-bottom: 30px;
-            padding-left: 10vw;
-            padding-right: 10vw;
+            margin : auto;//
+        }
+        
+        margin-bottom: 30px;
+        padding-left: 10vw; //
+        padding-right: 10vw; //
     }
     .bible {
         font-family: 'Playfair Display', serif;
@@ -109,16 +112,16 @@ $mobile-width: 450px;
         color: white;
         text-align: center;
         p {
-            padding-left: 10vw;
-            padding-right: 10vw;
+            padding-left: 10vw; //
+            padding-right: 10vw; //
             display: block;
         }
     }
     .description {
         color: white;
         font-family: Roboto,Arial,sans-serif;
-        padding-left: 10vw;
-        padding-right: 10vw;
-        padding-bottom: 30px;
+        padding-left: 10vw; //
+        padding-right: 10vw; //
+        padding-bottom: 30px; //
     }
 }
