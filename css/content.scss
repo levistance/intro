@@ -102,8 +102,8 @@ $mobile-width: 450px;
         }
         
         margin-bottom: 30px;
-        padding-left: 10vw; //
-        padding-right: 10vw; //
+        //padding-left: 10vw; //
+        //padding-right: 10vw; //
     }
     .bible {
         font-family: 'Playfair Display', serif;
@@ -120,8 +120,27 @@ $mobile-width: 450px;
     .description {
         color: white;
         font-family: Roboto,Arial,sans-serif;
-        padding-left: 10vw; //
-        padding-right: 10vw; //
+        //padding-left: 10vw; //
+        //padding-right: 10vw; //
+        padding-bottom: 30px; //
+    }
+}
+/* desktop */
+@media (min-width: 451px) {
+    .nard-img {
+        img {
+            width: 600px;
+            display: block;
+            margin : auto;//
+        }
+        
+        margin-bottom: 30px;
+    }
+    .description {
+        color: white;
+        font-family: Roboto,Arial,sans-serif;
+        padding-left: 20vw; //
+        padding-right: 20vw; //
         padding-bottom: 30px; //
     }
 }
