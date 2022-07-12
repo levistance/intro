@@ -79,7 +79,8 @@ $mobile-width: 450px;
     padding-right: 15px;
     padding-bottom: 30px;
     font-family: 'Playfair Display', serif;
-
+    
+    @media (min-width: 451px) {
     .subtitle {
         color: white;
         text-align: center;
@@ -144,7 +145,7 @@ $mobile-width: 450px;
         text-align: start;
     }
 }
-
+}
 /*0.모바일 데스크탑 나누기
 1.로고를 버튼 -> 원복
 2.글 이미지 조금 올리고
