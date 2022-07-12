@@ -112,13 +112,17 @@ $mobile-width: 450px;
     .bible {
         font-family: 'Playfair Display', serif;
         margin-top: 15px;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
         color: white;
         //text-align: center;
         p {
             padding-left: 10vw;
             padding-right: 10vw;
             display: block;
+
+            #bible{
+                line-height: -5px;
+            }
         }
     }
 
