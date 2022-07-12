@@ -114,10 +114,23 @@ $mobile-width: 450px;
         margin-top: 15px;
         margin-bottom: 15px;
         color: white;
-        //text-align: center;
+
         p {
-            padding-left: 10vw;
-            padding-right: 10vw;
+            padding-left: 280px;
+            padding-right: 280px;
+            display: block;
+        }
+    }
+
+    .bible-1{
+        color : white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: Roboto,Arial,sans-serif;
+
+        p {
+            padding-left: 280px;
+            padding-right: 280px;
             display: block;
         }
     }
@@ -125,7 +138,10 @@ $mobile-width: 450px;
     .description {
         color: white;
         font-family: Roboto,Arial,sans-serif;
-        padding-bottom: 30px;
+        padding-bottom : 30px;
+        padding-left : 280px;
+        padding-right : 280px;
+        text-align: start;
     }
 }
 
