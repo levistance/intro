@@ -170,6 +170,14 @@ $mobile-width: 450px;
         }
     }
 
+    .subtitle {
+        color: white;
+        text-align: center;
+        p {
+            margin-bottom: -10px;
+        }
+    }
+    
     .title p {
         color: white;
         font-family: 'Playfair Display', serif;
