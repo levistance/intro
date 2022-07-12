@@ -107,19 +107,40 @@ $mobile-width: 450px;
         
         margin-bottom: 30px;
     }
+
+
     .bible {
         font-family: 'Playfair Display', serif;
         margin-top: 15px;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
         color: white;
-        text-align: center;
+        //text-align: center;
         p {
             padding-left: 10vw;
             padding-right: 10vw;
             display: block;
         }
     }
+
     .description {
+        color: white;
+        font-family: Roboto,Arial,sans-serif;
+        padding-bottom: 30px;
+    }
+
+    .bible-1{
+        color: white;
+        font-family: Roboto,Arial,sans-serif;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        p{
+            padding-left: 10vw;
+            padding-right: 10vw;
+            display : block;
+        }
+    }
+    
+    .description-1 {
         color: white;
         font-family: Roboto,Arial,sans-serif;
         padding-bottom: 30px;
