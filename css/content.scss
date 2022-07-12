@@ -122,7 +122,7 @@ $mobile-width: 450px;
         }
     }
 
-    .bible-1{
+    .bible-1{ //
         color : white;
         margin-top: 15px;
         margin-bottom: 15px;
@@ -138,9 +138,9 @@ $mobile-width: 450px;
     .description {
         color: white;
         font-family: Roboto,Arial,sans-serif;
+        padding-left : 280px;//
+        padding-right : 280px;//
         padding-bottom : 30px;
-        padding-left : 280px;
-        padding-right : 280px;
         text-align: start;
     }
 }
@@ -150,9 +150,9 @@ $mobile-width: 450px;
 2.글 이미지 조금 올리고
 3.이미지 좌우 맞추고 */
 
-/* mobile */
+/*mobile */
 
-/*@media (max-width: 450px){
+@media (max-width: 450px){
     
     .logo {
         margin-top: 30px;
@@ -186,4 +186,34 @@ $mobile-width: 450px;
         
         margin-bottom: 30px;
     }
-}*/
+
+    .bible {
+        font-family: 'Playfair Display', serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: white;
+
+        p {
+            display: block;
+        }
+    }
+
+    .bible-1{
+        
+        font-family: 'Playfair Display', serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: white;
+
+        p {
+            display: block;
+        }
+
+    }
+    
+    .description {
+        color: white;
+        font-family: Roboto,Arial,sans-serif;
+        padding-bottom : 30px;
+    }
+}
