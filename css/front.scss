@@ -298,8 +298,15 @@ a {
     text-align: center;
     color: black;
     font-family: 'Playfair Display', serif;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;2022-08-23*/
 }
+.track-list .secondtitle p {
+    margin-top: -15px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Playfair Display', serif;
+} /*2022-08-23 추가*/
 
 .track-list p {
     color: black;
@@ -362,7 +369,7 @@ a {
 
 @media (min-width: 451px)   {
     #mobile_back {
-        min-height: 100vh;
+        min-height: 150vh;
         margin: 0 auto;
         min-width: 50%;
         height: auto;
