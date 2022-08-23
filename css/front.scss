@@ -301,7 +301,8 @@ a {
     /*margin-bottom: 30px;2022-08-23*/
 }
 .track-list .secondtitle p {
-    margin-top: -15px;
+    margin-top: -5px;
+    margin-bottom: 15px;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -369,7 +370,7 @@ a {
 
 @media (min-width: 451px)   {
     #mobile_back {
-        min-height: 150vh;
+        min-height: 120vh;
         margin: 0 auto;
         min-width: 50%;
         height: auto;
