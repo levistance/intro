@@ -280,57 +280,59 @@ a {
     padding-left: 6px;
     padding-right: 6px;
     padding-bottom: 60px;
-}
-.track-list .subtitle {
-    margin-top: 70px;
+
+    .row span {
+        color: black;
+        font-weight: bold;
+        font-size: 0.8rem;
+        font-family: 'Playfair Display', serif;
+        margin-top: 6px;
+        margin-bottom: 33px;
+        display: block;
+    }
+    .subtitle {
+        margin-top: 70px;
+        p {
+            margin-bottom: -10px;
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: black;
+            font-family: 'Playfair Display', serif;
+        }
+    }
+    .title {
+        p {
+            font-size: 3.7rem;
+            text-align: center;
+            color: black;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 30px;
+        }
+    }
+
+    p {
+        color: black;
+        text-align: center;
+    }
+
+    .col {
+        img {
+            width: 100%;
+            border-radius: 15px;
+        }
+    }
+
+    .row .col {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .track-img {
+        // height: 72%;
+        border-radius: 15px;
+    }
 }
 
-.track-list .subtitle p {
-    margin-bottom: -10px;
-    margin-top: 10px;
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    font-family: 'Playfair Display', serif;
-}
-.track-list .title p {
-    font-size: 3.7rem;
-    text-align: center;
-    color: black;
-    font-family: 'Playfair Display', serif;
-    /*margin-bottom: 30px;2022-08-23*/
-}
-.track-list .secondtitle p {
-    margin-top: -20px;
-    margin-bottom: 40px;
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    font-family: 'Playfair Display', serif;
-} /*2022-08-23 추가*/
-
-.track-list p {
-    color: black;
-    text-align: center;
-}
-.track-list .row span {
-    color: black;
-    font-weight: bold;
-    font-size: 0.8rem;
-    font-family: 'Playfair Display', serif;
-    margin-top: 6px;
-    margin-bottom: 33px;
-    
-    display: block;
-}
-.track-list .col img {
-    width: 100%;
-    border-radius: 15px;
-}
-.track-list .row .col {
-    padding-left: 6px;
-    padding-right: 6px;
-}
 .row {
     padding-left: 0px;
     padding-right: 0px;
@@ -370,7 +372,7 @@ a {
 
 @media (min-width: 451px)   {
     #mobile_back {
-        min-height: 210vh;
+        min-height: 100vh;
         margin: 0 auto;
         min-width: 50%;
         height: auto;
